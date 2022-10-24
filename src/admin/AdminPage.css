@@ -1,0 +1,76 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+input{
+    border: 1px solid grey;
+    padding: 5px;
+}
+.admin{
+    width: 90%;
+    display: flex;
+    /* align-items: center; */
+    /* justify-content: space-between   ; */
+    margin: auto;
+}
+.right, .left{
+    width: 50%;
+    /* border: 1px solid black; */
+    padding: 20px;
+}
+.price{
+    margin: 20px 0;
+    display: flex;
+    /* border: 1px solid #000; */
+    justify-content: space-between;
+    width: 95.4%;
+}
+.price div{
+    display: flex;
+    flex-direction: column;
+    width: 45%;
+    /* border: 1px solid red; */
+}
+textarea{
+    margin: 10px 0;
+    padding: 10px;
+}
+select{
+    margin: 13px 0;
+    padding: 10px;
+}
+.button{
+    background: blueviolet;
+    color: #fff;
+    padding: 10px;
+    cursor: pointer;
+}
+.button:hover{
+    background-color: rgba(137, 43, 226, 0.79);
+}
+.title{
+    width: 95.4%
+}
+
+.upload{
+    width: 100%;
+    margin: 20px 0;
+}
+.upload span{
+    background-color: grey;
+    color: #fff;
+    padding: 0.5%;
+    border: 1px solid grey;
+}
+.upload input{
+    padding: 5px;
+    width: 90%;
+}
+.sale{
+    display: flex;
+    flex-direction: column;
+}
+.sale input{
+    width: 30%;
+}
